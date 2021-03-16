@@ -1,0 +1,58 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<title>Student LAB Registration</title>
+</head>
+
+<body>
+	<div>
+		<img src="images/JustUni.png" alt="" srcset="">
+	</div>
+	<div class="form-section">
+		<h1>LAB Registration System</h1>
+		<form class=" form" method='post' action='signUpPage.php'>
+			<h1 class="title-form">Sing UP</h1>
+			<p>
+				<label class="label-form">
+					Name:
+				</label>
+				<input class="txtInput" type='text' name='name' placeholder="ex:Ahmed Ali" required>
+			</p>
+			<p>
+				<label class="label-form">
+					Age:
+				</label>
+				<input class="txtInput" type='text' name='age' placeholder="ex:18" required>
+			</p>
+			<p>
+				<label class="label-form">
+					ID:
+				</label>
+				<input class="txtInput" type='text' name='id' placeholder="6 digits ex:122900" required></p>
+			<p>
+				<label class="label-form">
+					Create a password:
+				</label>
+				<input class="txtInput" type='password' name='password' placeholder="8 characters" required>
+			</p>
+			<p>
+				<label class="label-form">
+					Confirm password:
+				</label>
+				<input class="txtInput" type='password' name='passwordTest' placeholder="Confirm Password" required>
+			</p>
+			<div class="flex-container">
+				<input class="btn-form" type='submit' value='sign up'>
+				<input class="btn-form" type='reset' value='clear'>
+			</div>
+			<p class="hyperlink"> <a href="studentLoginPage.html"> Go Back </a> </p>
+		</form>
+	</div>
+</body>
+
+</html>

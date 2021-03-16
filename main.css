@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #4e54c8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Sytleing form */
+.form-section {
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    background: #4e54c8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.title-form {
+    font-family: Poppins-Medium;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+
+    display: block;
+}
+
+.form input {
+    display: block;
+    width: 98%;
+    padding: 0 16px;
+    height: 44px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.label-form {
+    text-align: left;
+    display: block;
+    font-size: 20px;
+}
+
+.txtInput {
+    border-radius: 6px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.btn-form {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 44px;
+    transition: 0.8s;
+    font-size: 20px;    
+}
+
+.btn-form:hover {
+    transform: scale(0.96);
+    color: #008CBA;
+    background-color: white;
+}
+
+.signUpnewPage a {
+    text-decoration: none;
+}
+
+.hyperlink a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.8s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hyperlink a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/**************************/
+
+.select-css {
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+        linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    cursor: pointer;
+}
+
+.select-css::-ms-expand {
+    display: none;
+}
+
+.select-css:hover {
+    border-color: #888;
+}
+
+.select-css:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+
+.select-css option {
+    font-weight: normal;
+}
+
+.select-div {
+    width: 200px;
+}
+
+.form-admin__mainPage {
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    background: #4e54c8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    overflow: hidden;
+}
+
+.btn-form__logout {
+    background-color: #F02323;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 44px;
+    transition: 0.8s;
+    font-size: 20px;
+    float: right;
+}
+
+.btn-form__logout:hover {
+    transform: scale(0.96);
+    color: #F02323;
+    background-color: white;
+}
+
+.btn-form__open {
+    background-color: rgb(7, 158, 7);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 44px;
+    transition: 0.8s;
+    font-size: 20px;
+}
+
+.btn-form__open:hover {
+    transform: scale(0.96);
+    color: rgb(7, 158, 7);
+    background-color: white;
+}
+
+.btn-form__close {
+    background-color: #F02323;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    cursor: pointer;
+    border-radius: 44px;
+    transition: 0.8s;
+    font-size: 20px;
+}
+
+.btn-form__close:hover {
+    transform: scale(0.96);
+    color: #F02323;
+    background-color: white;
+}
+
+/* styles scroll back to up button*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+}
+
+#myBtn:hover {
+    background-color: white;
+    color: red;
+}
+
+/* end scroll back button*/
+
+/* design tables */
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #bbb3b3}
+  tr:nth-child(odd){background-color: #e9e5e5}
+  
+  th {
+    background-color: rgb(56, 39, 153);
+    color: white;
+  }
+
+/* end design table */
+
+.RegistrationStatus {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
